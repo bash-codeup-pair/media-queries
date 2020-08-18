@@ -77,9 +77,8 @@ footer>p{
 
 #social-media-links{
     align-self: flex-end;
-    background-color: red;
-    width: 65px;
-    height: 65px;
+    width: 40%;
+    color: black;
 }
 @media screen and (min-width:768px) {
     .hidden-on-desktop {
