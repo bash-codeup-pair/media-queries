@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+}
+.alert-info{
+    border: solid 1px lightgray;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.alert-info a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 1em;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.nav-links{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav-links li{
+    background-color: lightgray;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.header-img{
+
+}
+.header-img img{
+    width: 100%;
+}
