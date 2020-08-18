@@ -116,9 +116,29 @@ footer>p{
     .main {
         display: inline-block;
         width: 59%;
+
+    }
+    .main>h2{
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 1em;
+    }
+    .main>p{
+        margin-bottom: 1em;
+        display: flex;
+        align-items: baseline;
     }
     .sub-section {
         display: inline-block;
         width: 39%;
+    }
+    .sub-section>h2{
+        display: flex;
+        margin-bottom: 1.5em;
+        align-items: baseline;
+    }
+    .sub-section>p{
+        display: flex;
+        align-items: baseline;
     }
 }
