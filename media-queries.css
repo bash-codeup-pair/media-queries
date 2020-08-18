@@ -6,6 +6,7 @@ body, html{
     width: 100%;
     margin: 0;
     padding: 1em;
+    font-family: 'Roboto', sans-serif;
 }
 .alert-info{
     border: solid 1px lightgray;
@@ -79,4 +80,45 @@ footer>p{
     background-color: red;
     width: 65px;
     height: 65px;
+}
+@media screen and (min-width:768px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+    h1 {
+        display: inline-block;
+        width: 49%;
+        text-align: left;
+        font-size: 3em;
+        font-weight: bold;
+    }
+    nav {
+        display: inline-block;
+        width: 49%;
+    }
+    .nav-links{
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-links li{
+        background-color: white;
+    }
+    .nav-links>li>a {
+        display: inline-block;
+        padding: 1em;
+        font-size: 1.25em;
+    }
+    .header-img>img{
+        content:url("https://via.placeholder.com/890x385");
+        width: 100%;
+    }
+    .main {
+        display: inline-block;
+        width: 59%;
+    }
+    .sub-section {
+        display: inline-block;
+        width: 39%;
+    }
 }
